@@ -10,11 +10,11 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 directory_path = 'data'
 
-PINECONE_ENV = "asia-northeast1-gcp"
-PINECONE_API_KEY = "43886c44-bcb6-4599-ae9e-7e41236b997b"
+PINECONE_ENV = "<Your pinecone environment>"
+PINECONE_API_KEY = "<pinecone api key>"
 PINECONE_INDEX_NAME = "qna-private-enterprise-business-data-pinecone"
 
-OPEMAI_API_KEY = "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"
+OPEMAI_API_KEY = "<openai api key>"
 
 # Set up Pinecone client
 pinecone.init(api_key=PINECONE_API_KEY, environment=PINECONE_ENV)
